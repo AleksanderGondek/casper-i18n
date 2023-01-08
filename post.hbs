@@ -12,10 +12,8 @@ into the {body} tag of the default.hbs template --}}
 
         <header class="article-header gh-canvas">
 
-            {{#if primary_tag}}
-            <section class="article-tag">
-                <a href="{{primary_tag.url}}">{{primary_tag.name}}</a>
-            </section>
+            {{#if tags}}
+            <section class="article-tag">{{#each tags}}{{#if @index}}, {{/if}}<a href="{{url}}">{{name}}</a>{{/each}}</section>
             {{/if}}
 
             <h1 class="article-title">{{title}}</h1>

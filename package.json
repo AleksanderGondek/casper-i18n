@@ -2,7 +2,7 @@
     "name": "casper-i18n",
     "description": "The same casper theme, but with localization support",
     "demo": "https://demo.ghost.io",
-    "version": "4.7.3",
+    "version": "4.7.3-agondek-v1.3",
     "engines": {
         "ghost": ">=4.0.0"
     },
@@ -182,5 +182,8 @@
         "extends": [
             "@tryghost:theme"
         ]
+    },
+    "dependencies": {
+        "gulp-cli": "^2.3.0"
     }
 }

@@ -551,7 +551,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     flex: 1 1 301px;
     display: flex;
     flex-direction: column;
-    min-height: 220px;
+    min-height: 100px;
     background-size: cover;
     word-break: break-word;
 }
@@ -786,7 +786,7 @@ make sure this only happens on large viewports / desktop-ish devices.
         display: grid;
         grid-gap: 4vmin;
         grid-template-columns: 1fr 1fr 1fr;
-        min-height: 280px;
+        min-height: 100px;
         border-top: 0;
     }
 
@@ -798,7 +798,7 @@ make sure this only happens on large viewports / desktop-ish devices.
         position: relative;
         grid-column: 1 / span 2;
         margin-bottom: 0;
-        min-height: 380px;
+        min-height: 100px;
     }
 
     .post-feed.list .post-card-large .post-card-image-link {
@@ -855,7 +855,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 /* ---------------------------------------------------------- */
 
 .article {
-    padding: 8vmin 0;
+    padding: 3vmin 0 3vmin 0;
     word-break: break-word;
 }
 
